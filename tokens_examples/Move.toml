@@ -1,0 +1,8 @@
+[package]
+name = "tokens_examples"
+
+[dependencies]
+Mgo = { git = "https://github.com/MangoNetworkOs/Mango.git", subdir = "crates/mgo-framework/packages/mgo-framework", rev = "framework/testnet" }
+
+[addresses]
+tokens_examples = "0x0"
